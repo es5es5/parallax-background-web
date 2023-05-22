@@ -1,0 +1,22 @@
+{
+  "name": "parallax-background-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/es5es5/parallax-background-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/es5es5/parallax-background-web/issues"
+  },
+  "homepage": "https://github.com/es5es5/parallax-background-web#readme",
+  "dependencies": {
+    "typescript": "^5.0.4"
+  }
+}
