@@ -34,11 +34,11 @@ var Layer = /** @class */ (function () {
     };
     return Layer;
 }());
-var layer1 = new Layer(backgroundLayer1, 0.2);
-var layer2 = new Layer(backgroundLayer2, 0.4);
-var layer3 = new Layer(backgroundLayer3, 0.6);
-var layer4 = new Layer(backgroundLayer4, 0.8);
-var layer5 = new Layer(backgroundLayer5, 1);
+var layer1 = new Layer(backgroundLayer1, 0.05);
+var layer2 = new Layer(backgroundLayer2, 0.1);
+var layer3 = new Layer(backgroundLayer3, 0.2);
+var layer4 = new Layer(backgroundLayer4, 0.3);
+var layer5 = new Layer(backgroundLayer5, 1.0);
 var gameObjects = [layer1, layer2, layer3, layer4, layer5];
 function animate() {
     ctx.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
